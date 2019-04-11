@@ -1,6 +1,6 @@
 require 'time'
 
-def task_3(input_string)
+def task_03(input_string)
   array_valid_lines = []
   input_string.each_line do |line|
     array_valid_lines.push(line) if line.include? 'Calling core with action'
