@@ -1,6 +1,7 @@
 require 'yaml'
 
 def task_4_2(input_string)
+  return '' if str == ''
   output_array = []
   YAML.safe_load(input_string).each do |k, v|
     temp_hash = {}
